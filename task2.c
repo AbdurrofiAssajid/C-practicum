@@ -1,42 +1,42 @@
-// #include <stdio.h>
-// int main() {
-//     int xBomb1, yBomb1, radius1, xBomb2, yBomb2, radius2, xBomb3, yBomb3, radius3;
-//     int leoX, leoY;
-//     int bombCounter = 0;
+#include <stdio.h>
+int main() {
+    int xBomb1, yBomb1, radius1, xBomb2, yBomb2, radius2, xBomb3, yBomb3, radius3;
+    int leoX, leoY;
+    int bombCounter = 0;
 
-//     scanf("%d %d %d", &xBomb1, &yBomb1, &radius1);
-//     scanf("%d %d %d", &xBomb2, &yBomb2, &radius2);
-//     scanf("%d %d %d", &xBomb3, &yBomb3, &radius3);
+    scanf("%d %d %d", &xBomb1, &yBomb1, &radius1);
+    scanf("%d %d %d", &xBomb2, &yBomb2, &radius2);
+    scanf("%d %d %d", &xBomb3, &yBomb3, &radius3);
     
-//     scanf("%d %d", &leoX, &leoY);
+    scanf("%d %d", &leoX, &leoY);
 
-//     if (leoX >= (xBomb1 - radius1) && leoX <= (xBomb1 + radius1) &&
-//         leoY >= (yBomb1 - radius1) && leoY <= (yBomb1 + radius1)) {
-//         bombCounter++;
-//     }
+    if (leoX >= (xBomb1 - radius1) && leoX <= (xBomb1 + radius1) &&
+        leoY >= (yBomb1 - radius1) && leoY <= (yBomb1 + radius1)) {
+        bombCounter++;
+    }
 
-//     if (leoX >= (xBomb2 - radius2) && leoX <= (xBomb2 + radius2) &&
-//         leoY >= (yBomb2 - radius2) && leoY <= (yBomb2 + radius2)) {
-//         bombCounter++;
-//     }
+    if (leoX >= (xBomb2 - radius2) && leoX <= (xBomb2 + radius2) &&
+        leoY >= (yBomb2 - radius2) && leoY <= (yBomb2 + radius2)) {
+        bombCounter++;
+    }
 
-//     if (leoX >= (xBomb3 - radius3) && leoX <= (xBomb3 + radius3) &&
-//         leoY >= (yBomb3 - radius3) && leoY <= (yBomb3 + radius3)) {
-//         bombCounter++;
-//     }
+    if (leoX >= (xBomb3 - radius3) && leoX <= (xBomb3 + radius3) &&
+        leoY >= (yBomb3 - radius3) && leoY <= (yBomb3 + radius3)) {
+        bombCounter++;
+    }
 
-//     if (bombCounter == 3) {
-//         printf("LEO, YOU GOT 3 BOMBS ON YOUR TAIL, RUN MUCH FASTER\n");
-//     } else if (bombCounter == 2) {
-//         printf("Lil bro run a bit quicker there are 2 bombs\n");
-//     } else if (bombCounter == 1) {
-//         printf("Meh only one bomb\n");
-//     } else {
-//         printf("We chill\n");
-//     }
+    if (bombCounter == 3) {
+        printf("LEO, YOU GOT 3 BOMBS ON YOUR TAIL, RUN MUCH FASTER\n");
+    } else if (bombCounter == 2) {
+        printf("Lil bro run a bit quicker there are 2 bombs\n");
+    } else if (bombCounter == 1) {
+        printf("Meh only one bomb\n");
+    } else {
+        printf("We chill\n");
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 
 
 

@@ -1,21 +1,19 @@
-// #include <stdio.h>
-// int main(){
-//     double value, input1, input2;
-//     scanf("%lf", &value);
+#include <stdio.h>
+int main(){
+    double value, input1, input2;
+    scanf("%lf", &value);
     
-//     input1 = value * 2;  
-//     input2 = value * value;  
+    input1 = value * 2;  
+    input2 = value * value;  
     
-//     if (input1 > input2) {
-//         printf("%lf", input1);  
-//     } else {
-//         printf("%lf", input2);  
-//     }
+    if (input1 > input2) {
+        printf("%lf", input1);  
+    } else {
+        printf("%lf", input2);  
+    }
 
-//     return 0;
-// }
-
-
+    return 0;
+}
 
 
 
@@ -36,6 +34,8 @@
 
 
 
+
+// I dare, whoever u are, if u can accomplish this messages I'll give you something !!
 /* U2FsdGVkX1+CMO2uk3qJUJECjT2ToAGY2M+vWSKTAuNF8BxatOTyreHM4i6HI0Ri
 2WCPGBA31h6FKotPGu9ZGxhfhtVNzTFNRFQ3/XsfR+0wA/t7zgfs9c1gRYKBBVr9
 tdXPZat5+FQGP8W/ybDLGQ== 
